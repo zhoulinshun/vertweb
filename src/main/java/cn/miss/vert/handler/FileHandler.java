@@ -9,6 +9,7 @@ import io.vertx.ext.web.RoutingContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.net.URL;
 import java.net.URLDecoder;
 import java.util.Map;
 import java.util.Set;
@@ -28,13 +29,24 @@ public class FileHandler {
     }
 
     public void upload(RoutingContext routingContext) {
+        routingContext.request().setExpectMultipart(true);
+        routingContext.request().uploadHandler(httpServerFileUpload -> {
+            log.info("httpServerFileUpload:{}", httpServerFileUpload.name());
+            URL resource = this.getClass().getResource("/");
+            httpServerFileUpload.streamToFileSystem(resource.getPath() + "/upload/" + httpServerFileUpload.filename());
+        });
         Set<FileUpload> fileUploads = routingContext.fileUploads();
         log.info("file upload :{}", fileUploads.size());
         routingContext.response().setChunked(true);
+        //只有在前置处理器上传完成并且添加过 此处才会有文件对象
         for (FileUpload fileUpload : fileUploads) {
-            routingContext.response().write("name:" + fileUpload.fileName()+"\n");
-            routingContext.response().write("size:" + fileUpload.size()+"\n");
+            routingContext.response().write("name:" + fileUpload.fileName() + "\n");
+            routingContext.response().write("size:" + fileUpload.size() + "\n");
         }
+        MultiMap params = routingContext.request().params();
+        log.info("params:{}", params);
+        MultiMap entries = routingContext.request().formAttributes();
+        log.info("form:{}", entries);
 
 //        routingContext.request().setExpectMultipart(true);
 //        routingContext.request().uploadHandler(httpServerFileUpload -> {

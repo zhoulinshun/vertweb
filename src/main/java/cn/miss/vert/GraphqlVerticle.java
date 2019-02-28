@@ -32,7 +32,8 @@ public class GraphqlVerticle extends AbstractVerticle {
         Router router = Router.router(vertx);
         router.route().path("/hello").handler(CookieHandler.create()).handler(this::handler);
         URL resource = this.getClass().getResource("/");
-        router.route(HttpMethod.POST, "/upload").handler(BodyHandler.create().setUploadsDirectory(resource.getPath()+"/upload").setMergeFormAttributes(true));
+        //自动上传文件
+//        router.route(HttpMethod.POST, "/upload").handler(BodyHandler.create().setHandleFileUploads(true).setUploadsDirectory(resource.getPath()+"/upload").setMergeFormAttributes(true));
         router.route(HttpMethod.POST, "/upload").handler(fileHandler::upload);
         vertx.createHttpServer().requestHandler(router).listen(8090);
     }
