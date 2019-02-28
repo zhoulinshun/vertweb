@@ -1,4 +1,4 @@
-package cn.miss.vert;
+package cn.miss.vert.bean;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

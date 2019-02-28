@@ -1,9 +1,8 @@
-package cn.miss.vert;
+package cn.miss.vert.service;
 
-import com.fasterxml.jackson.databind.util.BeanUtil;
+import cn.miss.vert.bean.User;
 import graphql.schema.DataFetchingEnvironment;
 import org.apache.commons.beanutils.BeanUtils;
-import org.apache.commons.lang3.ObjectUtils;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
@@ -34,12 +33,23 @@ public class UserService {
         return list.stream().filter(user -> Objects.equals(user.getId(), id)).findFirst().orElse(null);
     }
 
+    public List<User> queryAll(DataFetchingEnvironment dataFetchingEnvironment) {
+        return list;
+    }
+
+    public int update(DataFetchingEnvironment dataFetchingEnvironment) {
+        User user = dataFetchingEnvironment.getArgument("user");
+
+        return 1;
+    }
+
     public List<User> mutation(DataFetchingEnvironment dataFetchingEnvironment) {
         try {
+//            JDBCClient.createNonShared()
             Map<String, Object> arguments = dataFetchingEnvironment.getArguments();
             Map<String, Object> userMap = (Map<String, Object>) arguments.get("user");
             User user = new User();
-            BeanUtils.populate(user,userMap);
+            BeanUtils.populate(user, userMap);
             list.add(user);
         } catch (IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();

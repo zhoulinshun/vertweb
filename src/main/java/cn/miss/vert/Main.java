@@ -8,8 +8,11 @@ import io.vertx.core.Vertx;
  * @Date: Created in 2019-01-01 10:23
  */
 public class Main {
+
+    public static Vertx vertx;
+
     public static void main(String[] args) {
-        Vertx vertx = Vertx.vertx();
+        vertx = Vertx.vertx();
         vertx.deployVerticle(new GraphqlVerticle());
     }
 }
