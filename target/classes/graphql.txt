@@ -1,0 +1,13 @@
+mutation {
+  addUser(user:{
+    name: "test2User",
+    id: "124",
+    age: 12,
+    intro: "简介"
+  }
+  ){
+  name,
+  intro,
+  id
+}
+}

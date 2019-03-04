@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187e2a47-7d74-43df-b1e6-5d7d58c9c63e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/FileHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/GraphQLHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/miss/vert/service/TypeInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/file.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NormalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/FileWithParamHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/miss/vert/GraphqlVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/miss/vert/GraphqlVerticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/miss/vert/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/miss/vert/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/miss/vert/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/miss/vert/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/miss/vert/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/miss/vert/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/VertxHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NormalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NormalTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,96 +20,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/GraphqlVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="34" column="71" lean-forward="true" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+            <state relative-caret-position="544">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1464#1465#0" expanded="true" />
+                <element signature="e#1503#1504#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/handler/BodyHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/VertxHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-              <folding>
-                <element signature="e#1919#1920#0" expanded="true" />
-                <element signature="e#1957#1958#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="199" selection-start-line="199" selection-end-line="199" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/impl/VertxImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="292" selection-start-line="292" selection-end-line="292" />
-              <folding>
-                <element signature="e#12271#12272#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/impl/RoutingContextImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="177" selection-start-line="177" selection-end-line="177" />
-              <folding>
-                <element signature="e#5291#5292#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NormalTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="587">
+              <caret line="94" column="6" lean-forward="true" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/FileHandler.java">
+        <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.3/vertx-web-3.6.3.jar!/io/vertx/ext/web/impl/FileUploadImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/file.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/graphql.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -136,6 +91,10 @@
       <find>slf4j.version</find>
       <find>&lt;vertx.version&gt;3.6.1&lt;/vertx.version&gt;</find>
       <find>&lt;version&gt;3.6.1&lt;/version&gt;</find>
+      <find>bodyLimit</find>
+      <find>defaultPort</find>
+      <find>java-tool</find>
+      <find>slf</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;vertx.version&gt;${vertx.version}&lt;/vertx.version&gt;</replace>
@@ -157,7 +116,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/cn/miss/vert/UserService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/miss/vert/Main.java" />
         <option value="$PROJECT_DIR$/readme.md" />
@@ -169,9 +127,12 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/GraphQLHandler.java" />
         <option value="$PROJECT_DIR$/src/main/resources/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/file.html" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/FileHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/miss/vert/GraphqlVerticle.java" />
         <option value="$PROJECT_DIR$/src/test/java/NormalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/FileWithParamHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/FileHandler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/VertxHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/miss/vert/GraphqlVerticle.java" />
       </list>
     </option>
   </component>
@@ -194,6 +155,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="vert-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vert-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -213,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,6 +237,28 @@
               <item name="vertweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="miss" type="462c0819:PsiDirectoryNode" />
+              <item name="vert" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="miss" type="462c0819:PsiDirectoryNode" />
+              <item name="vert" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,13 +269,19 @@
             </path>
             <path>
               <item name="vertweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertweb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -317,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.NormalTest.leet">
     <configuration name="GraphqlVerticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.miss.vert.GraphqlVerticle" />
       <module name="vertweb" />
@@ -344,6 +339,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NormalTest.leet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertweb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NormalTest" />
+      <option name="METHOD_NAME" value="leet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NormalTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="vertweb" />
       <option name="PACKAGE_NAME" value="" />
@@ -366,6 +371,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NormalTest.leet" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.NormalTest.test2" />
         <item itemvalue="JUnit.NormalTest.test" />
@@ -390,7 +396,8 @@
       <workItem from="1550747055882" duration="5000" />
       <workItem from="1550747096682" duration="1861000" />
       <workItem from="1550835842431" duration="4537000" />
-      <workItem from="1551062023099" duration="23313000" />
+      <workItem from="1551062023099" duration="26692000" />
+      <workItem from="1551410264809" duration="26665000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1550749019303</created>
@@ -399,31 +406,56 @@
       <option name="project" value="LOCAL" />
       <updated>1550749019303</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1551325027398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551325027398</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NormalTest_test - 2019.02.27 at 19h 05m 15s.xml">
-      <configuration name="NormalTest.test" configurationId="JUnit" />
+    <history-entry file="NormalTest_leet - 2019.03.01 at 16h 31m 14s.xml">
+      <configuration name="NormalTest.leet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NormalTest_test2 - 2019.02.27 at 19h 11m 45s.xml">
-      <configuration name="NormalTest.test2" configurationId="JUnit" />
+    <history-entry file="NormalTest_leet - 2019.03.01 at 16h 31m 28s.xml">
+      <configuration name="NormalTest.leet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NormalTest_test2 - 2019.02.27 at 19h 13m 00s.xml">
-      <configuration name="NormalTest.test2" configurationId="JUnit" />
+    <history-entry file="NormalTest_leet - 2019.03.01 at 16h 31m 46s.xml">
+      <configuration name="NormalTest.leet" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NormalTest_test2 - 2019.02.27 at 19h 14m 15s.xml">
-      <configuration name="NormalTest.test2" configurationId="JUnit" />
+    <history-entry file="NormalTest_leet - 2019.03.01 at 17h 15m 44s.xml">
+      <configuration name="NormalTest.leet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NormalTest_leet - 2019.03.01 at 17h 16m 05s.xml">
+      <configuration name="NormalTest.leet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NormalTest_leet - 2019.03.01 at 17h 16m 15s.xml">
+      <configuration name="NormalTest.leet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NormalTest_leet - 2019.03.01 at 17h 24m 41s.xml">
+      <configuration name="NormalTest.leet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NormalTest_leet - 2019.03.01 at 17h 25m 09s.xml">
+      <configuration name="NormalTest.leet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NormalTest_leet - 2019.03.01 at 17h 25m 23s.xml">
+      <configuration name="NormalTest.leet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NormalTest_leet - 2019.03.01 at 17h 25m 33s.xml">
+      <configuration name="NormalTest.leet" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46993000" />
+    <option name="totallyTimeSpent" value="77037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-453" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24866879" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28434506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -431,8 +463,9 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
+      <window_info anchor="bottom" id="Dependency Viewer" weight="0.32970297" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32871288" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893504" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -448,12 +481,13 @@
       <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="15" />
       <window_info anchor="bottom" id="Spring" order="16" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" weight="0.32960597" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Flutter Inspector" order="5" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" weight="0.32960597" />
       <window_info anchor="right" id="Flutter Outline" order="6" weight="0.32960597" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -478,16 +512,10 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.java</url>
-          <line>183</line>
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java</url>
+          <line>2025</line>
           <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.java</url>
-          <line>179</line>
-          <properties />
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -551,356 +579,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/service/TypeInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/com/graphql-java/graphql-java/11.0/graphql-java-11.0-sources.jar!/graphql/schema/GraphQLFieldDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="236" column="23" selection-start-line="236" selection-start-column="23" selection-end-line="236" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/com/graphql-java/graphql-java/11.0/graphql-java-11.0-sources.jar!/graphql/schema/DataFetchingEnvironment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/com/graphql-java/graphql-java/11.0/graphql-java-11.0-sources.jar!/graphql/schema/DataFetchingEnvironmentImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
-          <folding>
-            <element signature="e#3226#3227#0" expanded="true" />
-            <element signature="e#3272#3273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/GraphQLHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/net/impl/VertxHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="86" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1.jar!/io/vertx/ext/web/impl/HttpServerRequestWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="185" selection-start-line="185" selection-end-line="185" />
-          <folding>
-            <element signature="e#4893#4894#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1.jar!/io/vertx/ext/web/impl/RoutingContextImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#3432#3433#0" expanded="true" />
-            <element signature="e#3467#3468#0" expanded="true" />
-            <element signature="e#3557#3558#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/http/impl/HttpServerResponseImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="444" selection-start-line="444" selection-end-line="444" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/http/HttpServerResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="286" selection-start-line="286" selection-end-line="286" />
-          <folding>
-            <element signature="e#8991#8992#0" expanded="true" />
-            <element signature="e#9029#9030#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/graphql.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/file.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1.jar!/io/vertx/ext/web/impl/RouteImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="209" selection-start-line="209" selection-end-line="209" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/MultiMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/json/JsonObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/http/impl/HttpServerFileUploadImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="143" column="67" selection-start-line="143" selection-start-column="67" selection-end-line="143" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1.jar!/io/vertx/ext/web/handler/BodyHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1.jar!/io/vertx/ext/web/impl/RoutingContextImplBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1.jar!/io/vertx/ext/web/FileUpload.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1.jar!/io/vertx/ext/web/impl/FileUploadImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/streams/ReadStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/buffer/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3379">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/http/HttpServerFileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/FileUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/impl/FileUploadImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-          <folding>
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1257#1258#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/RoutingContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="260" column="8" selection-start-line="260" selection-start-column="8" selection-end-line="260" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/netty/netty-codec-http/4.1.30.Final/netty-codec-http-4.1.30.Final.jar!/io/netty/handler/codec/http/HttpHeaderValues.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/http/HttpHeaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="313" column="65" lean-forward="true" selection-start-line="313" selection-start-column="65" selection-end-line="313" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/http/HttpServerRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/http/impl/Http2ServerRequestImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="219" column="61" selection-start-line="219" selection-start-column="61" selection-end-line="219" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/FileHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/org/springframework/spring-core/5.1.4.RELEASE/spring-core-5.1.4.RELEASE.jar!/org/springframework/core/io/FileSystemResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/org/springframework/spring-core/5.1.4.RELEASE/spring-core-5.1.4.RELEASE.jar!/org/springframework/core/io/FileSystemResourceLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/lib/tools.jar!/sun/rmi/rmic/iiop/ClassPathLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding>
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m3/repository/org/springframework/spring-core/5.1.4.RELEASE/spring-core-5.1.4.RELEASE.jar!/org/springframework/lang/Nullable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -936,16 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NormalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/impl/RoutingContextImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -956,40 +624,1288 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/impl/VertxImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="292" selection-start-line="292" selection-end-line="292" />
+        <state relative-caret-position="697">
+          <caret line="41" column="92" lean-forward="true" selection-start-line="41" selection-start-column="92" selection-end-line="41" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/eventbus/EventBus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="2076" selection-start-line="2076" selection-end-line="2076" />
           <folding>
-            <element signature="e#12271#12272#0" expanded="true" />
+            <element signature="e#95523#95524#0" expanded="true" />
+            <element signature="e#95580#95581#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="199" selection-start-line="199" selection-end-line="199" />
+    <entry file="uml://JAVA/java.util.Queue">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.Queue</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.Collection</node>
+            <node x="" y="">java.util.Queue</node>
+            <node x="" y="">java.lang.Iterable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="55.5" y="95.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/GraphqlVerticle.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="34" column="71" lean-forward="true" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+        <state relative-caret-position="327">
+          <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NormalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4283#4284#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/handler/BodyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+        <state relative-caret-position="320">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
           <folding>
             <element signature="e#1919#1920#0" expanded="true" />
             <element signature="e#1957#1958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.1/vertx-web-3.6.1-sources.jar!/io/vertx/ext/web/handler/impl/BodyHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="913">
+          <caret line="151" column="14" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
+          <folding>
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="99" column="33" lean-forward="true" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/GraphQLHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="942">
+          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web-client/3.6.1/vertx-web-client-3.6.1.jar!/io/vertx/ext/web/client/WebClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web-client/3.6.1/vertx-web-client-3.6.1-sources.jar!/io/vertx/ext/web/client/impl/HttpRequestImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/http/HttpClientOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#25484#25485#0" expanded="true" />
+            <element signature="e#25512#25513#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-codegen/3.6.1/vertx-codegen-3.6.1.jar!/io/vertx/codegen/annotations/VertxGen.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-codegen/3.6.1/vertx-codegen-3.6.1-sources.jar!/io/vertx/codegen/annotations/VertxGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/http/HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/impl/VertxImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+          <folding>
+            <element signature="e#12244#12245#0" expanded="true" />
+            <element signature="e#12271#12272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/impl/VertxInternal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/http/impl/HttpClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="111" column="31" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web-client/3.6.1/vertx-web-client-3.6.1-sources.jar!/io/vertx/ext/web/client/impl/predicate/PredicateInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web-client/3.6.1/vertx-web-client-3.6.1-sources.jar!/io/vertx/ext/web/client/impl/HttpContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-core/3.6.1/vertx-core-3.6.1-sources.jar!/io/vertx/core/Vertx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="166" column="13" selection-start-line="166" selection-start-column="13" selection-end-line="166" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web-client/3.6.1/vertx-web-client-3.6.1-sources.jar!/io/vertx/ext/web/client/WebClientOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web-client/3.6.1/vertx-web-client-3.6.1-sources.jar!/io/vertx/ext/web/client/impl/WebClientBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="196" column="29" selection-start-line="196" selection-start-column="29" selection-end-line="196" selection-end-column="29" />
+          <folding>
+            <element signature="e#4431#4432#0" expanded="true" />
+            <element signature="e#4490#4491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar!/org/jetbrains/annotations/NotNull.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m3/repository/com/graphql-java/graphql-java/2019-02-07T02-30-53-e310dc3/graphql-java-2019-02-07T02-30-53-e310dc3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m3/repository/com/graphql-java/graphql-java-tools/5.2.4/graphql-java-tools-5.2.4.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="223" selection-start-line="223" selection-end-line="223" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m3/repository/io/vertx/vertx-kafka-client/3.4.1/vertx-kafka-client-3.4.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web-client/3.6.1/vertx-web-client-3.6.1-sources.jar!/io/vertx/ext/web/client/WebClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2497#2498#0" expanded="true" />
+            <element signature="e#2554#2555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web-client/3.6.3/vertx-web-client-3.6.3.jar!/io/vertx/ext/web/client/WebClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web-client/3.6.3/vertx-web-client-3.6.3-sources.jar!/io/vertx/ext/web/client/WebClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="64" column="53" lean-forward="true" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/cn.miss.vert:vert-web:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>cn.miss.vert:vert-web:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="3804.7415697405986" y="940.0">cn.miss.vert:vert-web:1.0-SNAPSHOT</node>
+            <node x="3816.7415697405986" y="790.0">com.google.code.gson:gson:jar:2.8.5</node>
+            <node x="441.2832364072651" y="790.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE</node>
+            <node x="723.4193000698397" y="570.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE</node>
+            <node x="533.9247895995195" y="440.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE</node>
+            <node x="522.9247895995195" y="340.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE/org.springframework:spring-aop:jar:5.1.4.RELEASE</node>
+            <node x="385.9247895995195" y="260.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE/org.springframework:spring-beans:jar:5.1.4.RELEASE</node>
+            <node x="609.9247895995195" y="260.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE/org.springframework:spring-expression:jar:5.1.4.RELEASE</node>
+            <node x="748.7190896693583" y="690.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.2.RELEASE</node>
+            <node x="389.6858532620936" y="690.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE</node>
+            <node x="419.71908966935825" y="570.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1</node>
+            <node x="321.6747895995195" y="440.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1/org.apache.logging.log4j:log4j-api:jar:2.11.1</node>
+            <node x="554.7190896693583" y="570.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="136.0" y="690.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="603.4247895995195" y="160.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework:spring-core:jar:5.1.4.RELEASE</node>
+            <node x="610.4247895995195" y="80.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework:spring-core:jar:5.1.4.RELEASE/org.springframework:spring-jcl:jar:5.1.4.RELEASE</node>
+            <node x="616.6858532620936" y="690.0">org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="5531.4456229328525" y="790.0">io.vertx:vertx-codegen:jar:3.6.3</node>
+            <node x="5254.75" y="340.0">io.vertx:vertx-codegen:jar:3.6.3/com.fasterxml.jackson.core:jackson-core:jar:2.9.8</node>
+            <node x="5485.6122895995195" y="440.0">io.vertx:vertx-codegen:jar:3.6.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8</node>
+            <node x="5510.8622895995195" y="340.0">io.vertx:vertx-codegen:jar:3.6.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="5601.8622895995195" y="690.0">io.vertx:vertx-codegen:jar:3.6.3/org.mvel:mvel2:jar:2.3.1.Final</node>
+            <node x="4619.673635123904" y="570.0">io.vertx:vertx-core:jar:3.6.3</node>
+            <node x="4687.8013835651245" y="0.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-common:jar:4.1.30.Final</node>
+            <node x="4695.3013835651245" y="80.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-buffer:jar:4.1.30.Final</node>
+            <node x="4400.009716898458" y="160.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-transport:jar:4.1.30.Final</node>
+            <node x="4723.493163706204" y="340.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final</node>
+            <node x="4410.509716898458" y="260.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final/io.netty:netty-codec:jar:4.1.30.Final</node>
+            <node x="4623.925281861811" y="440.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler-proxy:jar:4.1.30.Final</node>
+            <node x="4497.050281861811" y="340.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler-proxy:jar:4.1.30.Final/io.netty:netty-codec-socks:jar:4.1.30.Final</node>
+            <node x="4313.425281861811" y="340.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-codec-http:jar:4.1.30.Final</node>
+            <node x="4454.925281861811" y="440.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-codec-http2:jar:4.1.30.Final</node>
+            <node x="4107.330284918325" y="80.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver:jar:4.1.30.Final</node>
+            <node x="4069.9252818618106" y="440.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver-dns:jar:4.1.30.Final</node>
+            <node x="4155.425281861811" y="340.0">io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver-dns:jar:4.1.30.Final/io.netty:netty-codec-dns:jar:4.1.30.Final</node>
+            <node x="4491.7372895995195" y="790.0">io.vertx:vertx-web:jar:3.6.3</node>
+            <node x="4566.748353262094" y="690.0">io.vertx:vertx-web:jar:3.6.3/io.vertx:vertx-web-common:jar:3.6.3</node>
+            <node x="4387.748353262094" y="690.0">io.vertx:vertx-web:jar:3.6.3/io.vertx:vertx-auth-common:jar:3.6.3</node>
+            <node x="4198.748353262094" y="690.0">io.vertx:vertx-web:jar:3.6.3/io.vertx:vertx-bridge-common:jar:3.6.3</node>
+            <node x="4781.8622895995195" y="790.0">io.vertx:vertx-web-client:jar:3.6.3</node>
+            <node x="4936.8622895995195" y="790.0">io.vertx:vertx-jdbc-client:jar:3.6.3</node>
+            <node x="5006.3622895995195" y="690.0">io.vertx:vertx-jdbc-client:jar:3.6.3/com.mchange:c3p0:jar:0.9.5.2</node>
+            <node x="4945.8622895995195" y="570.0">io.vertx:vertx-jdbc-client:jar:3.6.3/com.mchange:c3p0:jar:0.9.5.2/com.mchange:mchange-commons-java:jar:0.2.11</node>
+            <node x="4037.7483532620936" y="690.0">io.vertx:vertx-redis-client:jar:3.6.3</node>
+            <node x="3587.408236407265" y="790.0">io.vertx:vertx-kafka-client:jar:3.6.3</node>
+            <node x="3608.033236407265" y="570.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka-clients:jar:1.1.0</node>
+            <node x="3739.033236407265" y="440.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka-clients:jar:1.1.0/org.lz4:lz4-java:jar:1.4</node>
+            <node x="3610.033236407265" y="440.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka-clients:jar:1.1.0/org.xerial.snappy:snappy-java:jar:1.1.7.1</node>
+            <node x="2954.533236407265" y="690.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0</node>
+            <node x="3322.7190896693583" y="570.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.fasterxml.jackson.core:jackson-databind:jar:2.9.4</node>
+            <node x="3483.7190896693583" y="570.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/net.sf.jopt-simple:jopt-simple:jar:5.0.4</node>
+            <node x="3021.7190896693583" y="570.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.yammer.metrics:metrics-core:jar:2.2.0</node>
+            <node x="2671.7190896693583" y="570.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/org.scala-lang:scala-reflect:jar:2.12.4</node>
+            <node x="3153.7190896693583" y="570.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2</node>
+            <node x="3222.6693000698397" y="440.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2/org.scala-lang:scala-reflect:jar:2.12.2</node>
+            <node x="2919.7190896693583" y="570.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.101tec:zkclient:jar:0.10</node>
+            <node x="2801.7190896693583" y="570.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/org.apache.zookeeper:zookeeper:jar:3.4.10</node>
+            <node x="2866.5608532620936" y="440.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="3581.9193000698397" y="690.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-log4j12:jar:1.7.21</node>
+            <node x="3819.783236407265" y="570.0">io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-log4j12:jar:1.7.21/log4j:log4j:jar:1.2.17</node>
+            <node x="3841.033236407265" y="440.0">io.vertx:vertx-kafka-client:jar:3.6.3/log4j:log4j:jar:1.2.16</node>
+            <node x="4741.748353262094" y="690.0">io.vertx:vertx-sql-common:jar:3.6.3</node>
+            <node x="2093.533236407265" y="790.0">com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3</node>
+            <node x="2383.7190896693583" y="690.0">com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3/org.antlr:antlr4-runtime:jar:4.7.1</node>
+            <node x="2234.7190896693583" y="690.0">com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3/com.graphql-java:java-dataloader:jar:2.1.1</node>
+            <node x="2077.7190896693583" y="690.0">com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3/org.reactivestreams:reactive-streams:jar:1.0.2</node>
+            <node x="915.7415697405986" y="790.0">org.projectlombok:lombok:jar:1.18.4</node>
+            <node x="1387.5332364072651" y="790.0">com.google.guava:guava:jar:27.0-jre</node>
+            <node x="1942.7190896693585" y="690.0">com.google.guava:guava:jar:27.0-jre/com.google.guava:failureaccess:jar:1.0</node>
+            <node x="1792.7190896693585" y="690.0">com.google.guava:guava:jar:27.0-jre/com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava</node>
+            <node x="1175.7190896693585" y="690.0">com.google.guava:guava:jar:27.0-jre/com.google.code.findbugs:jsr305:jar:3.0.2</node>
+            <node x="1439.7190896693585" y="690.0">com.google.guava:guava:jar:27.0-jre/org.checkerframework:checker-qual:jar:2.5.2</node>
+            <node x="969.7190896693583" y="690.0">com.google.guava:guava:jar:27.0-jre/com.google.errorprone:error_prone_annotations:jar:2.2.0</node>
+            <node x="1268.7190896693585" y="690.0">com.google.guava:guava:jar:27.0-jre/com.google.j2objc:j2objc-annotations:jar:1.1</node>
+            <node x="1573.7190896693585" y="690.0">com.google.guava:guava:jar:27.0-jre/org.codehaus.mojo:animal-sniffer-annotations:jar:1.17</node>
+            <node x="1740.3457364072651" y="790.0">org.apache.commons:commons-lang3:jar:3.8.1</node>
+            <node x="5233.3622895995195" y="790.0">commons-beanutils:commons-beanutils:jar:1.9.3</node>
+            <node x="5277.3622895995195" y="690.0">commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2</node>
+            <node x="5091.3622895995195" y="690.0">commons-beanutils:commons-beanutils:jar:1.9.3/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="270.71908966935825" y="570.0">ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="0.0" y="440.0">ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="2558.2190896693583" y="790.0">junit:junit:jar:4.12</node>
+            <node x="2526.7190896693583" y="690.0">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="5096.3622895995195" y="790.0">javax.validation:validation-api:jar:2.0.1.Final</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ch.qos.logback:logback-classic:jar:1.2.3" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="32.25" y="-15.0" />
+              <point x="367.46908966935825" y="500.0" />
+              <point x="2870.0608532620936" y="500.0" />
+              <point x="-38.5" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2">
+              <point x="11.0" y="-15.0" />
+              <point x="3015.033236407265" y="640.0" />
+              <point x="3228.2190896693583" y="640.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework:spring-core:jar:5.1.4.RELEASE">
+              <point x="27.0" y="-15.0" />
+              <point x="804.4193000698397" y="490.0" />
+              <point x="766.4247895995195" y="490.0" />
+              <point x="766.4247895995195" y="240.0" />
+              <point x="700.5914562661865" y="240.0" />
+              <point x="44.16666666666697" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE/org.springframework:spring-expression:jar:5.1.4.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework:spring-core:jar:5.1.4.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="26.5" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="849.2190896693583" y="670.0" />
+              <point x="804.4193000698397" y="670.0" />
+              <point x="27.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-jdbc-client:jar:3.6.3/com.mchange:c3p0:jar:0.9.5.2" target="io.vertx:vertx-jdbc-client:jar:3.6.3/com.mchange:c3p0:jar:0.9.5.2/com.mchange:mchange-commons-java:jar:0.2.11">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="io.vertx:vertx-jdbc-client:jar:3.6.3">
+              <point x="28.10526315789457" y="-15.0" />
+              <point x="3877.346832898493" y="890.0" />
+              <point x="5004.8622895995195" y="890.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.101tec:zkclient:jar:0.10" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-15.0" />
+              <point x="2960.2190896693583" y="550.0" />
+              <point x="2912.0608532620936" y="550.0" />
+              <point x="3.5" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="commons-beanutils:commons-beanutils:jar:1.9.3">
+              <point x="37.473684210526244" y="-15.0" />
+              <point x="3886.715253951125" y="910.0" />
+              <point x="5311.3622895995195" y="910.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="io.vertx:vertx-redis-client:jar:3.6.3">
+              <point x="4.684210526315837" y="-15.0" />
+              <point x="3853.9257802669144" y="840.0" />
+              <point x="4107.748353262094" y="840.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-web:jar:3.6.3" target="io.vertx:vertx-web:jar:3.6.3/io.vertx:vertx-web-common:jar:3.6.3">
+              <point x="36.0" y="-15.0" />
+              <point x="4575.7372895995195" y="770.0" />
+              <point x="4605.498353262094" y="770.0" />
+              <point x="-38.75" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3">
+              <point x="59.58333333333326" y="-15.0" />
+              <point x="3718.4915697405986" y="770.0" />
+              <point x="4013.7900199287606" y="770.0" />
+              <point x="4013.7900199287606" y="620.0" />
+              <point x="4625.798635123904" y="620.0" />
+              <point x="-42.875" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="-9.368421052631675" y="-15.0" />
+              <point x="3839.873148687967" y="850.0" />
+              <point x="2588.7190896693583" y="850.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3" target="com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3/org.antlr:antlr4-runtime:jar:4.7.1">
+              <point x="41.625" y="-15.0" />
+              <point x="2190.658236407265" y="770.0" />
+              <point x="2445.2190896693583" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-codegen:jar:3.6.3" target="io.vertx:vertx-codegen:jar:3.6.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8">
+              <point x="0.0" y="-15.0" />
+              <point x="5593.4456229328525" y="770.0" />
+              <point x="5591.3622895995195" y="770.0" />
+              <point x="35.25" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE/org.springframework:spring-aop:jar:5.1.4.RELEASE">
+              <point x="15.75" y="-15.0" />
+              <point x="612.6747895995195" y="400.0" />
+              <point x="573.9247895995195" y="400.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-codegen:jar:3.6.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8" target="io.vertx:vertx-codegen:jar:3.6.3/com.fasterxml.jackson.core:jackson-core:jar:2.9.8">
+              <point x="-35.25" y="-15.0" />
+              <point x="5520.8622895995195" y="410.0" />
+              <point x="5349.75" y="410.0" />
+              <point x="38.0" y="15.0" />
+            </edge>
+            <edge source="ch.qos.logback:logback-classic:jar:1.2.3" target="ch.qos.logback:logback-core:jar:1.2.3">
+              <point x="-32.25" y="-15.0" />
+              <point x="302.96908966935825" y="550.0" />
+              <point x="86.25" y="550.0" />
+              <point x="28.75" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE/org.springframework:spring-aop:jar:5.1.4.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework:spring-core:jar:5.1.4.RELEASE">
+              <point x="25.5" y="-15.0" />
+              <point x="599.4247895995195" y="240.0" />
+              <point x="665.2581229328525" y="240.0" />
+              <point x="8.83333333333303" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler-proxy:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler-proxy:jar:4.1.30.Final/io.netty:netty-codec-socks:jar:4.1.30.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="4703.425281861811" y="390.0" />
+              <point x="4572.550281861811" y="390.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="org.apache.commons:commons-lang3:jar:3.8.1">
+              <point x="-18.73684210526335" y="-15.0" />
+              <point x="3830.5047276353353" y="870.0" />
+              <point x="1807.3457364072651" y="870.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-sql-common:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3">
+              <point x="0.0" y="-15.0" />
+              <point x="4815.748353262094" y="670.0" />
+              <point x="4699.298635123904" y="670.0" />
+              <point x="30.625" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final/io.netty:netty-codec:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-transport:jar:4.1.30.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.google.guava:guava:jar:27.0-jre" target="com.google.guava:guava:jar:27.0-jre/com.google.errorprone:error_prone_annotations:jar:2.2.0">
+              <point x="-30.42857142857156" y="-15.0" />
+              <point x="1392.6046649786936" y="770.0" />
+              <point x="1062.7190896693583" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/net.sf.jopt-simple:jopt-simple:jar:5.0.4">
+              <point x="33.0" y="-15.0" />
+              <point x="3037.033236407265" y="660.0" />
+              <point x="3535.2190896693583" y="660.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver-dns:jar:4.1.30.Final/io.netty:netty-codec-dns:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final/io.netty:netty-codec:jar:4.1.30.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="4224.425281861811" y="310.0" />
+              <point x="4424.134716898458" y="310.0" />
+              <point x="-40.875" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-redis-client:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3">
+              <point x="0.0" y="-15.0" />
+              <point x="4107.748353262094" y="630.0" />
+              <point x="4638.048635123904" y="630.0" />
+              <point x="-30.625" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-codec-http2:jar:4.1.30.Final">
+              <point x="-8.909090909090878" y="-15.0" />
+              <point x="4659.764544214813" y="510.0" />
+              <point x="4529.425281861811" y="510.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-web:jar:3.6.3" target="io.vertx:vertx-web:jar:3.6.3/io.vertx:vertx-auth-common:jar:3.6.3">
+              <point x="-12.0" y="-15.0" />
+              <point x="4527.7372895995195" y="760.0" />
+              <point x="4466.748353262094" y="760.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="io.vertx:vertx-web:jar:3.6.3">
+              <point x="14.052631578947512" y="-15.0" />
+              <point x="3863.294201319546" y="860.0" />
+              <point x="4539.7372895995195" y="860.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-log4j12:jar:1.7.21/log4j:log4j:jar:1.2.17" target="io.vertx:vertx-kafka-client:jar:3.6.3/log4j:log4j:jar:1.2.16">
+              <point x="0.0" y="-15.0" />
+              <point x="3851.783236407265" y="455.0" />
+              <point x="-16.0" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3">
+              <point x="-14.052631578947512" y="-15.0" />
+              <point x="3835.188938161651" y="860.0" />
+              <point x="2149.033236407265" y="860.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE">
+              <point x="-12.91666666666697" y="-15.0" />
+              <point x="505.86656974059815" y="770.0" />
+              <point x="493.1858532620936" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="commons-beanutils:commons-beanutils:jar:1.9.3" target="commons-beanutils:commons-beanutils:jar:1.9.3/commons-collections:commons-collections:jar:3.2.2">
+              <point x="-39.0" y="-15.0" />
+              <point x="5272.3622895995195" y="770.0" />
+              <point x="5174.3622895995195" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-buffer:jar:4.1.30.Final">
+              <point x="39.333333333333485" y="-15.0" />
+              <point x="4821.826497039538" y="320.0" />
+              <point x="4793.493163706204" y="320.0" />
+              <point x="4793.493163706204" y="140.0" />
+              <point x="4750.3013835651245" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler-proxy:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-transport:jar:4.1.30.Final">
+              <point x="53.0" y="-15.0" />
+              <point x="4756.425281861811" y="420.0" />
+              <point x="4851.993163706204" y="420.0" />
+              <point x="4851.993163706204" y="230.0" />
+              <point x="4517.009716898458" y="230.0" />
+              <point x="52.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-transport:jar:4.1.30.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="4782.493163706204" y="240.0" />
+              <point x="4491.009716898458" y="240.0" />
+              <point x="26.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.fasterxml.jackson.core:jackson-databind:jar:2.9.4">
+              <point x="22.0" y="-15.0" />
+              <point x="3026.033236407265" y="650.0" />
+              <point x="3393.2190896693583" y="650.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-11.0" y="-15.0" />
+              <point x="2993.033236407265" y="620.0" />
+              <point x="3011.2190896693583" y="620.0" />
+              <point x="3011.2190896693583" y="540.0" />
+              <point x="2919.0608532620936" y="540.0" />
+              <point x="10.5" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-codec-http:jar:4.1.30.Final">
+              <point x="-17.818181818181756" y="-15.0" />
+              <point x="4650.855453305722" y="520.0" />
+              <point x="4387.0668350540645" y="520.0" />
+              <point x="4387.0668350540645" y="420.0" />
+              <point x="4336.925281861811" y="420.0" />
+              <point x="-47.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-log4j12:jar:1.7.21" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-log4j12:jar:1.7.21/log4j:log4j:jar:1.2.17">
+              <point x="27.5" y="-15.0" />
+              <point x="3664.4193000698397" y="670.0" />
+              <point x="3851.783236407265" y="670.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3" target="com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3/com.graphql-java:java-dataloader:jar:2.1.1">
+              <point x="13.875" y="-15.0" />
+              <point x="2162.908236407265" y="760.0" />
+              <point x="2299.2190896693583" y="760.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-codegen:jar:3.6.3" target="io.vertx:vertx-codegen:jar:3.6.3/org.mvel:mvel2:jar:2.3.1.Final">
+              <point x="41.33333333333334" y="-15.0" />
+              <point x="5634.778956266186" y="770.0" />
+              <point x="5636.8622895995195" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler-proxy:jar:4.1.30.Final/io.netty:netty-codec-socks:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final/io.netty:netty-codec:jar:4.1.30.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="4572.550281861811" y="320.0" />
+              <point x="4478.634716898458" y="320.0" />
+              <point x="13.625" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0">
+              <point x="-35.75" y="-15.0" />
+              <point x="3623.158236407265" y="760.0" />
+              <point x="3004.033236407265" y="760.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.yammer.metrics:metrics-core:jar:2.2.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-15.0" />
+              <point x="3077.7190896693583" y="530.0" />
+              <point x="2926.0608532620936" y="530.0" />
+              <point x="17.5" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="ch.qos.logback:logback-core:jar:1.2.3">
+              <point x="-42.15789473684208" y="-15.0" />
+              <point x="3807.0836750037565" y="920.0" />
+              <point x="28.75" y="920.0" />
+              <point x="-28.75" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1">
+              <point x="0.0" y="-15.0" />
+              <point x="493.1858532620936" y="670.0" />
+              <point x="477.21908966935825" y="670.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-web:jar:3.6.3" target="io.vertx:vertx-web:jar:3.6.3/io.vertx:vertx-bridge-common:jar:3.6.3">
+              <point x="-36.0" y="-15.0" />
+              <point x="4503.7372895995195" y="770.0" />
+              <point x="4283.248353262094" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-codec-http2:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-codec-http:jar:4.1.30.Final">
+              <point x="-37.25" y="-15.0" />
+              <point x="4492.175281861811" y="410.0" />
+              <point x="4383.925281861811" y="410.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-web:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3">
+              <point x="12.0" y="-15.0" />
+              <point x="4551.7372895995195" y="770.0" />
+              <point x="4556.248353262094" y="770.0" />
+              <point x="4556.248353262094" y="660.0" />
+              <point x="4674.798635123904" y="660.0" />
+              <point x="6.125" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka-clients:jar:1.1.0">
+              <point x="11.916666666666742" y="-15.0" />
+              <point x="3670.824903073932" y="750.0" />
+              <point x="3704.6693000698397" y="750.0" />
+              <point x="3704.6693000698397" y="660.0" />
+              <point x="3692.783236407265" y="660.0" />
+              <point x="28.25" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="io.vertx:vertx-core:jar:3.6.3">
+              <point x="9.368421052631675" y="-15.0" />
+              <point x="3858.6099907932303" y="850.0" />
+              <point x="4188.248353262094" y="850.0" />
+              <point x="4188.248353262094" y="640.0" />
+              <point x="4650.298635123904" y="640.0" />
+              <point x="-18.375" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver:jar:4.1.30.Final">
+              <point x="-44.545454545454504" y="-15.0" />
+              <point x="4624.128180578449" y="550.0" />
+              <point x="4050.5161909527196" y="550.0" />
+              <point x="4050.5161909527196" y="130.0" />
+              <point x="4127.496951584992" y="130.0" />
+              <point x="-40.33333333333326" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final">
+              <point x="8.909090909090764" y="-15.0" />
+              <point x="4677.582726032995" y="510.0" />
+              <point x="4895.868163706204" y="510.0" />
+              <point x="4895.868163706204" y="410.0" />
+              <point x="4811.993163706204" y="410.0" />
+              <point x="29.5" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/org.apache.zookeeper:zookeeper:jar:3.4.10" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-15.0" />
+              <point x="2850.7190896693583" y="550.0" />
+              <point x="2905.0608532620936" y="550.0" />
+              <point x="-3.5" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-web:jar:3.6.3/io.vertx:vertx-auth-common:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3">
+              <point x="0.0" y="-15.0" />
+              <point x="4466.748353262094" y="650.0" />
+              <point x="4662.548635123904" y="650.0" />
+              <point x="-6.125" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-log4j12:jar:1.7.21">
+              <point x="-11.916666666666742" y="-15.0" />
+              <point x="3646.9915697405986" y="770.0" />
+              <point x="3636.9193000698397" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-jdbc-client:jar:3.6.3" target="io.vertx:vertx-sql-common:jar:3.6.3">
+              <point x="-34.0" y="-15.0" />
+              <point x="4970.8622895995195" y="760.0" />
+              <point x="4852.748353262094" y="760.0" />
+              <point x="37.0" y="15.0" />
+            </edge>
+            <edge source="com.google.guava:guava:jar:27.0-jre" target="com.google.guava:guava:jar:27.0-jre/com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava">
+              <point x="20.285714285714675" y="-15.0" />
+              <point x="1443.3189506929798" y="760.0" />
+              <point x="1857.7190896693585" y="760.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-jdbc-client:jar:3.6.3" target="io.vertx:vertx-jdbc-client:jar:3.6.3/com.mchange:c3p0:jar:0.9.5.2">
+              <point x="34.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="28.75" y="-15.0" />
+              <point x="505.96908966935825" y="510.0" />
+              <point x="2877.0608532620936" y="510.0" />
+              <point x="-31.5" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-common:jar:4.1.30.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="4167.830284918325" y="55.0" />
+              <point x="4708.634716898458" y="55.0" />
+              <point x="-41.66666666666663" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="io.vertx:vertx-web-client:jar:3.6.3">
+              <point x="23.421052631578732" y="-15.0" />
+              <point x="3872.6626223721773" y="880.0" />
+              <point x="4849.3622895995195" y="880.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25">
+              <point x="69.0" y="-15.0" />
+              <point x="562.1858532620936" y="670.0" />
+              <point x="604.2190896693583" y="670.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-41.625" y="-15.0" />
+              <point x="2107.408236407265" y="770.0" />
+              <point x="2067.2190896693583" y="770.0" />
+              <point x="2067.2190896693583" y="530.0" />
+              <point x="2891.0608532620936" y="530.0" />
+              <point x="-17.5" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE" target="ch.qos.logback:logback-classic:jar:1.2.3">
+              <point x="-69.0" y="-15.0" />
+              <point x="424.1858532620936" y="670.0" />
+              <point x="367.46908966935825" y="670.0" />
+              <point x="32.25" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE">
+              <point x="-32.78947368421041" y="-15.0" />
+              <point x="3816.452096056388" y="900.0" />
+              <point x="518.7832364072651" y="900.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3" target="io.vertx:vertx-codegen:jar:3.6.3/com.fasterxml.jackson.core:jackson-core:jar:2.9.8">
+              <point x="35.63636363636374" y="-15.0" />
+              <point x="4704.309998760267" y="540.0" />
+              <point x="4953.936345524386" y="540.0" />
+              <point x="4953.936345524386" y="420.0" />
+              <point x="5273.75" y="420.0" />
+              <point x="-38.0" y="15.0" />
+            </edge>
+            <edge source="commons-beanutils:commons-beanutils:jar:1.9.3" target="commons-beanutils:commons-beanutils:jar:1.9.3/commons-logging:commons-logging:jar:1.2">
+              <point x="39.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-transport:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-buffer:jar:4.1.30.Final">
+              <point x="32.5" y="-15.0" />
+              <point x="4497.509716898458" y="140.0" />
+              <point x="4713.634716898458" y="140.0" />
+              <point x="-36.66666666666663" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="io.vertx:vertx-kafka-client:jar:3.6.3">
+              <point x="-4.684210526315837" y="-15.0" />
+              <point x="3844.5573592142828" y="840.0" />
+              <point x="3658.908236407265" y="840.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.yammer.metrics:metrics-core:jar:2.2.0">
+              <point x="0.0" y="-15.0" />
+              <point x="3004.033236407265" y="630.0" />
+              <point x="3077.7190896693583" y="630.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-codec-http:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final/io.netty:netty-codec:jar:4.1.30.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="4383.925281861811" y="320.0" />
+              <point x="4451.384716898458" y="320.0" />
+              <point x="-13.625" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="0.0" y="-15.0" />
+              <point x="604.2190896693583" y="520.0" />
+              <point x="2884.0608532620936" y="520.0" />
+              <point x="-24.5" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2">
+              <point x="-38.75" y="-15.0" />
+              <point x="480.0332364072651" y="760.0" />
+              <point x="216.0" y="760.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver-dns:jar:4.1.30.Final">
+              <point x="-26.727272727272748" y="-15.0" />
+              <point x="4641.946362396631" y="530.0" />
+              <point x="4144.925281861811" y="530.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3" target="com.graphql-java:graphql-java:jar:2019-02-07T02-30-53-e310dc3/org.reactivestreams:reactive-streams:jar:1.0.2">
+              <point x="-13.875" y="-15.0" />
+              <point x="2135.158236407265" y="770.0" />
+              <point x="2146.2190896693583" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.1/org.apache.logging.log4j:log4j-api:jar:2.11.1">
+              <point x="-28.75" y="-15.0" />
+              <point x="448.46908966935825" y="490.0" />
+              <point x="365.6747895995195" y="490.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler-proxy:jar:4.1.30.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="4668.673635123904" y="500.0" />
+              <point x="4703.425281861811" y="500.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-common:jar:4.1.30.Final">
+              <point x="26.727272727272748" y="-15.0" />
+              <point x="4695.400907851177" y="530.0" />
+              <point x="4934.73180006984" y="530.0" />
+              <point x="4934.73180006984" y="55.0" />
+              <point x="4791.9680502317915" y="55.0" />
+              <point x="41.66666666666674" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.2.RELEASE">
+              <point x="64.58333333333303" y="-15.0" />
+              <point x="583.3665697405982" y="770.0" />
+              <point x="849.2190896693583" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-transport:jar:4.1.30.Final">
+              <point x="-35.63636363636374" y="-15.0" />
+              <point x="4633.03727148754" y="540.0" />
+              <point x="4059.4252818618106" y="540.0" />
+              <point x="4059.4252818618106" y="230.0" />
+              <point x="4413.009716898458" y="230.0" />
+              <point x="-52.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE/org.springframework:spring-aop:jar:5.1.4.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE/org.springframework:spring-beans:jar:5.1.4.RELEASE">
+              <point x="-25.5" y="-15.0" />
+              <point x="548.4247895995195" y="320.0" />
+              <point x="472.9247895995195" y="320.0" />
+              <point x="29.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver-dns:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver:jar:4.1.30.Final">
+              <point x="-50.0" y="-15.0" />
+              <point x="4094.9252818618106" y="420.0" />
+              <point x="4102.175281861811" y="420.0" />
+              <point x="4102.175281861811" y="140.0" />
+              <point x="4167.830284918325" y="140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.google.guava:guava:jar:27.0-jre" target="com.google.guava:guava:jar:27.0-jre/org.codehaus.mojo:animal-sniffer-annotations:jar:1.17">
+              <point x="10.142857142856883" y="-15.0" />
+              <point x="1433.176093550122" y="750.0" />
+              <point x="1673.2190896693585" y="750.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-transport:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver:jar:4.1.30.Final">
+              <point x="-32.5" y="-15.0" />
+              <point x="4432.509716898458" y="140.0" />
+              <point x="4208.163618251658" y="140.0" />
+              <point x="40.33333333333326" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver-dns:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver-dns:jar:4.1.30.Final/io.netty:netty-codec-dns:jar:4.1.30.Final">
+              <point x="50.0" y="-15.0" />
+              <point x="4194.925281861811" y="420.0" />
+              <point x="4224.425281861811" y="420.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE/org.springframework:spring-beans:jar:5.1.4.RELEASE">
+              <point x="-47.25" y="-15.0" />
+              <point x="549.6747895995195" y="420.0" />
+              <point x="414.9247895995195" y="420.0" />
+              <point x="-29.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/org.apache.zookeeper:zookeeper:jar:3.4.10">
+              <point x="-33.0" y="-15.0" />
+              <point x="2971.033236407265" y="660.0" />
+              <point x="2850.7190896693583" y="660.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.google.guava:guava:jar:27.0-jre" target="com.google.guava:guava:jar:27.0-jre/com.google.code.findbugs:jsr305:jar:3.0.2">
+              <point x="-20.285714285714675" y="-15.0" />
+              <point x="1402.7475221215504" y="760.0" />
+              <point x="1212.2190896693585" y="760.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-web:jar:3.6.3/io.vertx:vertx-web-common:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3">
+              <point x="0.0" y="-15.0" />
+              <point x="4644.248353262094" y="670.0" />
+              <point x="4687.048635123904" y="670.0" />
+              <point x="18.375" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-codec-http2:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final">
+              <point x="37.25" y="-15.0" />
+              <point x="4566.675281861811" y="410.0" />
+              <point x="4752.993163706204" y="410.0" />
+              <point x="-29.5" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE/org.springframework:spring-expression:jar:5.1.4.RELEASE">
+              <point x="47.25" y="-15.0" />
+              <point x="644.1747895995195" y="420.0" />
+              <point x="682.9247895995195" y="420.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-log4j12:jar:1.7.21" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-27.5" y="-15.0" />
+              <point x="3609.4193000698397" y="660.0" />
+              <point x="3597.2190896693583" y="660.0" />
+              <point x="3597.2190896693583" y="510.0" />
+              <point x="2940.0608532620936" y="510.0" />
+              <point x="31.5" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka-clients:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka-clients:jar:1.1.0/org.lz4:lz4-java:jar:1.4">
+              <point x="37.66666666666674" y="-15.0" />
+              <point x="3702.1999030739316" y="550.0" />
+              <point x="3780.033236407265" y="550.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-37.25" y="-15.0" />
+              <point x="3190.9690896693583" y="520.0" />
+              <point x="2933.0608532620936" y="520.0" />
+              <point x="24.5" y="15.0" />
+            </edge>
+            <edge source="com.google.guava:guava:jar:27.0-jre" target="com.google.guava:guava:jar:27.0-jre/com.google.j2objc:j2objc-annotations:jar:1.1">
+              <point x="-10.142857142856883" y="-15.0" />
+              <point x="1412.8903792644082" y="750.0" />
+              <point x="1344.2190896693585" y="750.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler-proxy:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-codec-http:jar:4.1.30.Final">
+              <point x="-53.0" y="-15.0" />
+              <point x="4650.425281861811" y="400.0" />
+              <point x="4430.925281861811" y="400.0" />
+              <point x="47.0" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.18.4">
+              <point x="-28.10526315789457" y="-15.0" />
+              <point x="3821.136306582704" y="890.0" />
+              <point x="955.2415697405986" y="890.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3" target="io.vertx:vertx-codegen:jar:3.6.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8">
+              <point x="44.545454545454504" y="-15.0" />
+              <point x="4713.219089669358" y="550.0" />
+              <point x="5520.8622895995195" y="550.0" />
+              <point x="-35.25" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka-clients:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka-clients:jar:1.1.0/org.xerial.snappy:snappy-java:jar:1.1.7.1">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="io.vertx:vertx-codegen:jar:3.6.3">
+              <point x="42.15789473684208" y="-15.0" />
+              <point x="3891.3994644774407" y="920.0" />
+              <point x="5593.4456229328525" y="920.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-handler:jar:4.1.30.Final/io.netty:netty-codec:jar:4.1.30.Final">
+              <point x="-39.33333333333337" y="-15.0" />
+              <point x="4743.15983037287" y="310.0" />
+              <point x="4505.884716898458" y="310.0" />
+              <point x="40.875" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-web-client:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3">
+              <point x="33.75" y="-15.0" />
+              <point x="4883.1122895995195" y="770.0" />
+              <point x="4900.248353262094" y="770.0" />
+              <point x="4900.248353262094" y="660.0" />
+              <point x="4711.548635123904" y="660.0" />
+              <point x="42.875" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="com.google.guava:guava:jar:27.0-jre">
+              <point x="-23.421052631578732" y="-15.0" />
+              <point x="3825.82051710902" y="880.0" />
+              <point x="1423.0332364072651" y="880.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE">
+              <point x="38.75" y="-15.0" />
+              <point x="557.5332364072651" y="760.0" />
+              <point x="738.2190896693583" y="760.0" />
+              <point x="738.2190896693583" y="670.0" />
+              <point x="750.4193000698397" y="670.0" />
+              <point x="-27.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE/org.springframework:spring-beans:jar:5.1.4.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework:spring-core:jar:5.1.4.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="443.9247895995195" y="220.0" />
+              <point x="629.9247895995195" y="220.0" />
+              <point x="-26.5" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-59.58333333333326" y="-15.0" />
+              <point x="3599.324903073932" y="770.0" />
+              <point x="2661.2190896693583" y="770.0" />
+              <point x="2661.2190896693583" y="540.0" />
+              <point x="2898.0608532620936" y="540.0" />
+              <point x="-10.5" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="com.google.code.gson:gson:jar:2.8.5">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework:spring-core:jar:5.1.4.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework:spring-core:jar:5.1.4.RELEASE/org.springframework:spring-jcl:jar:5.1.4.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework:spring-core:jar:5.1.4.RELEASE">
+              <point x="-64.58333333333303" y="-15.0" />
+              <point x="454.1999030739321" y="770.0" />
+              <point x="125.5" y="770.0" />
+              <point x="125.5" y="210.0" />
+              <point x="612.2581229328525" y="210.0" />
+              <point x="-44.16666666666697" y="15.0" />
+            </edge>
+            <edge source="com.google.guava:guava:jar:27.0-jre" target="com.google.guava:guava:jar:27.0-jre/org.checkerframework:checker-qual:jar:2.5.2">
+              <point x="0.0" y="-15.0" />
+              <point x="1423.0332364072651" y="740.0" />
+              <point x="1496.7190896693585" y="740.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-buffer:jar:4.1.30.Final">
+              <point x="17.818181818181756" y="-15.0" />
+              <point x="4686.491816942085" y="520.0" />
+              <point x="4925.82270916075" y="520.0" />
+              <point x="4925.82270916075" y="130.0" />
+              <point x="4786.9680502317915" y="130.0" />
+              <point x="36.66666666666674" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.101tec:zkclient:jar:0.10">
+              <point x="-22.0" y="-15.0" />
+              <point x="2982.033236407265" y="650.0" />
+              <point x="2960.2190896693583" y="650.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-codegen:jar:3.6.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8" target="io.vertx:vertx-codegen:jar:3.6.3/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0">
+              <point x="35.25" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka-clients:jar:1.1.0">
+              <point x="44.0" y="-15.0" />
+              <point x="3048.033236407265" y="670.0" />
+              <point x="3636.283236407265" y="670.0" />
+              <point x="-28.25" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework:spring-core:jar:5.1.4.RELEASE">
+              <point x="-15.75" y="-15.0" />
+              <point x="581.1747895995195" y="410.0" />
+              <point x="512.4247895995195" y="410.0" />
+              <point x="512.4247895995195" y="230.0" />
+              <point x="647.5914562661865" y="230.0" />
+              <point x="-8.83333333333303" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-buffer:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-common:jar:4.1.30.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-codegen:jar:3.6.3" target="io.vertx:vertx-codegen:jar:3.6.3/com.fasterxml.jackson.core:jackson-core:jar:2.9.8">
+              <point x="-41.333333333333485" y="-15.0" />
+              <point x="5552.1122895995195" y="770.0" />
+              <point x="5433.8622895995195" y="770.0" />
+              <point x="5433.8622895995195" y="420.0" />
+              <point x="5311.75" y="420.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3" target="io.vertx:vertx-kafka-client:jar:3.6.3/log4j:log4j:jar:1.2.16">
+              <point x="35.75" y="-15.0" />
+              <point x="3694.658236407265" y="760.0" />
+              <point x="3894.283236407265" y="760.0" />
+              <point x="3894.283236407265" y="550.0" />
+              <point x="3889.033236407265" y="550.0" />
+              <point x="16.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.springframework.boot:spring-boot:jar:2.1.2.RELEASE/org.springframework:spring-context:jar:5.1.4.RELEASE">
+              <point x="-27.0" y="-15.0" />
+              <point x="750.4193000698397" y="490.0" />
+              <point x="596.9247895995195" y="490.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.google.guava:guava:jar:27.0-jre" target="com.google.guava:guava:jar:27.0-jre/com.google.guava:failureaccess:jar:1.0">
+              <point x="30.42857142857156" y="-15.0" />
+              <point x="1453.4618078358367" y="770.0" />
+              <point x="1999.7190896693585" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE" target="org.springframework.boot:spring-boot-starter:jar:2.1.2.RELEASE/org.yaml:snakeyaml:jar:1.23">
+              <point x="12.91666666666697" y="-15.0" />
+              <point x="531.6999030739321" y="750.0" />
+              <point x="665.6858532620936" y="750.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/com.typesafe.scala-logging:scala-logging_2.12:jar:3.7.2/org.scala-lang:scala-reflect:jar:2.12.2">
+              <point x="37.25" y="-15.0" />
+              <point x="3265.4690896693583" y="550.0" />
+              <point x="3277.6693000698397" y="550.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-web-client:jar:3.6.3" target="io.vertx:vertx-web:jar:3.6.3/io.vertx:vertx-web-common:jar:3.6.3">
+              <point x="-33.75" y="-15.0" />
+              <point x="4815.6122895995195" y="760.0" />
+              <point x="4682.998353262094" y="760.0" />
+              <point x="38.75" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="io.vertx:vertx-sql-common:jar:3.6.3">
+              <point x="18.73684210526335" y="-15.0" />
+              <point x="3867.978411845862" y="870.0" />
+              <point x="4761.6122895995195" y="870.0" />
+              <point x="4761.6122895995195" y="770.0" />
+              <point x="4778.748353262094" y="770.0" />
+              <point x="-37.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-resolver-dns:jar:4.1.30.Final" target="io.vertx:vertx-core:jar:3.6.3/io.netty:netty-transport:jar:4.1.30.Final">
+              <point x="0.0" y="-15.0" />
+              <point x="4144.925281861811" y="240.0" />
+              <point x="4439.009716898458" y="240.0" />
+              <point x="-26.0" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka-clients:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-api:jar:1.7.25">
+              <point x="-37.66666666666674" y="-15.0" />
+              <point x="3626.8665697405986" y="500.0" />
+              <point x="2947.0608532620936" y="500.0" />
+              <point x="38.5" y="15.0" />
+            </edge>
+            <edge source="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0" target="io.vertx:vertx-kafka-client:jar:3.6.3/org.apache.kafka:kafka_2.12:jar:1.1.0/org.scala-lang:scala-reflect:jar:2.12.4">
+              <point x="-44.0" y="-15.0" />
+              <point x="2960.033236407265" y="670.0" />
+              <point x="2726.7190896693583" y="670.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="ch.qos.logback:logback-classic:jar:1.2.3">
+              <point x="-37.473684210526244" y="-15.0" />
+              <point x="3811.7678855300724" y="910.0" />
+              <point x="73.96710526315837" y="910.0" />
+              <point x="73.96710526315837" y="670.0" />
+              <point x="302.96908966935825" y="670.0" />
+              <point x="-32.25" y="15.0" />
+            </edge>
+            <edge source="cn.miss.vert:vert-web:1.0-SNAPSHOT" target="javax.validation:validation-api:jar:2.0.1.Final">
+              <point x="32.78947368421041" y="-15.0" />
+              <point x="3882.031043424809" y="900.0" />
+              <point x="5154.8622895995195" y="900.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="220.0" y="220.0" />
+          <SelectedNodes>
+            <node>io.vertx:vertx-kafka-client:jar:3.6.3/org.slf4j:slf4j-log4j12:jar:1.7.21/log4j:log4j:jar:1.2.17</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/file.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/graphql.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-codegen/3.6.3/vertx-codegen-3.6.3.jar!/io/vertx/codegen/annotations/Nullable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m3/repository/io/vertx/vertx-web/3.6.3/vertx-web-3.6.3.jar!/io/vertx/ext/web/impl/FileUploadImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/FileWithParamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/GraphqlVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1464#1465#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/miss/vert/handler/VertxHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="94" column="6" lean-forward="true" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
           </folding>
         </state>
       </provider>

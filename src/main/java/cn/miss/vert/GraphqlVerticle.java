@@ -1,17 +1,17 @@
 package cn.miss.vert;
 
-import cn.miss.vert.handler.FileHandler;
 import cn.miss.vert.handler.GraphQLHandler;
+import cn.miss.vert.handler.VertxHandler;
 import graphql.GraphQL;
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.http.HttpMethod;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
+import io.vertx.ext.web.client.WebClient;
 import io.vertx.ext.web.handler.BodyHandler;
 import io.vertx.ext.web.handler.CookieHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.core.io.FileSystemResourceLoader;
 
 import java.net.URL;
 import java.util.Map;
@@ -24,18 +24,29 @@ import java.util.Map;
 public class GraphqlVerticle extends AbstractVerticle {
     private static final Logger log = LoggerFactory.getLogger(GraphqlVerticle.class);
 
-    private FileHandler fileHandler = new FileHandler(vertx);
+    private VertxHandler vertxHandler = new VertxHandler(vertx);
 
 
     @Override
-    public void start() throws Exception {
+    public synchronized void start() throws Exception {
         Router router = Router.router(vertx);
         router.route().path("/hello").handler(CookieHandler.create()).handler(this::handler);
         URL resource = this.getClass().getResource("/");
         //自动上传文件
-//        router.route(HttpMethod.POST, "/upload").handler(BodyHandler.create().setHandleFileUploads(true).setUploadsDirectory(resource.getPath()+"/upload").setMergeFormAttributes(true));
-        router.route(HttpMethod.POST, "/upload").handler(fileHandler::upload);
+        router.route(HttpMethod.POST, "/upload/autoUpload").handler(BodyHandler.create().setHandleFileUploads(true).setUploadsDirectory(resource.getPath() + "/upload").setMergeFormAttributes(true));
+        //手动文件上传
+        router.route(HttpMethod.POST, "/upload/handlerUpload").handler(vertxHandler::autoUpload);
+        router.route("/formWithFile").handler(vertxHandler::formWithFile);
+        router.route("/form/:pram1/:param2").handler(vertxHandler::form);
+
+
         vertx.createHttpServer().requestHandler(router).listen(8090);
+        WebClient webClient = WebClient.create(vertx, null);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
     }
 
     private void handler(RoutingContext routingContext) {
