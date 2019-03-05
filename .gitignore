@@ -26,5 +26,6 @@ hs_err_pid*
 
 .vertx/
 target
+.idea
 classpath:
 file-uploads
